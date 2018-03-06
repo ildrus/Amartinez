@@ -23,18 +23,18 @@ public class AlumneTest {
 
 	@Test
 	public void testAprovaM5() {
-		assertTrue("auria de sortir aprovat",a1.AprovaM5());
+		assertTrue("auria de sortir aprovat",a1.aprovaM5(9));
 		
 	}
 
 	@Test
 	public void testAnysMatriculat() {
-		assertTrue("auria de sortir els anys de matricula",a1.AnysMatriculat());
+		assertTrue("auria de sortir els anys de matricula",a1.anysMatriculat(9));
 	}
 
 	@Test
 	public void testPassaASegon() {
-		assertTrue("auria de indicar que pasa a segon any",a1.PassaASegon());
+		assertTrue("auria de indicar que pasa a segon any", a1.passaASegon());
 	}
 
 }
